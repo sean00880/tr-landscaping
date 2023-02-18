@@ -35,7 +35,9 @@ export default function Footer() {
                                     <li>
                                         <div className="item">
                                             <div className="logo">
-                                                <Link href="/"><a><img src="img/logo-light.png" alt="" /></a></Link>
+                                                <Link href="/"><a>
+                            <h1>TR <span>Landscaping</span> LLC</h1>
+                        </a></Link>
                                             </div>
                                             <div className="textwidget">
                                                 <p>We are focused on user-driven outcomes, we strive to create meaningful connections for users through considered strategy and innovation.</p>

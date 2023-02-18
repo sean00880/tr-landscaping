@@ -70,8 +70,8 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                       <span className="icon">
                         <Checked className="fn__svg"/>
                       </span>
-                      <h3>We Have ISO Certificate</h3>
-                      <p>An ISO 1900:2007</p>
+                      <h3>We Are Fully Licensed</h3>
+                      <p>ABCD 2017:23</p>
                     </div>
                   </li>
                   <li>
@@ -79,8 +79,8 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                       <span className="icon">
                         <Checked className="fn__svg"/>
                       </span>
-                      <h3>We Provide High Services</h3>
-                      <p>That you have expected</p>
+                      <h3>Professional Services</h3>
+                      <p>We underpromise & overdeliver</p>
                     </div>
                   </li>
                   <li>
@@ -88,8 +88,8 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                       <span className="icon">
                         <Checked className="fn__svg"/>
                       </span>
-                      <h3>Most Expirienced Company</h3>
-                      <p>In the constrution business</p>
+                      <h3>Family Owned & Operated</h3>
+                      <p>Served over 200+ customers</p>
                     </div>
                   </li>
                 </ul>
