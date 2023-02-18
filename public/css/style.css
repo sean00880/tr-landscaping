@@ -5205,7 +5205,7 @@ border-radius: 1vh 0 0 1vh;
 	float: left;
 	clear: both;
 	padding: 30px;
-	background-color: #111724;
+	background: linear-gradient(45deg,#4a6850,#3b3d39);
 }
 .fn_cs_project_sticky_full .left_part h3{
 	margin: 0px;
@@ -5329,7 +5329,7 @@ border-radius: 1vh 0 0 1vh;
 .fn_cs_project_sticky_full .right_part .title_holder{
 	width: 45%;
 	float: right;
-	background-color: #181e2b;
+	background-color: linear-gradient(225deg,#343436,#000);
 	border: 1px solid rgba(255,255,255,.03);
 	border-left-width: 0px;
 	padding: 62px 70px 31px 70px;
