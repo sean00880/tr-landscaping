@@ -3058,6 +3058,12 @@ blockquote{
 	float: left;
 	clear: both;
 	margin-bottom: 13px;
+	background: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vh;
+	padding:1vh;
 }
 .industify_fn_footer .bottom_widget .widget_nav_menu ul{
 	margin: 0;
@@ -3083,7 +3089,8 @@ blockquote{
 .industify_fn_footer .footer_copyright p{
 	margin: 0px;
 	padding: 0px;
-	color: #999;
+	color: #1b1a1a;
+	letter-spacing: 2px;
 }
 .industify_fn_footer .footer_copyright a{
 	color: #ccc;
@@ -3307,7 +3314,7 @@ blockquote{
     top: 100%;
     left: 0px;
     margin-top: 3px;
-    background-color: #316397;
+    background-color: #a4c0aa;
 }
 .industify_fn_widget_business_hours ul{
 	list-style-type: none;
@@ -3399,7 +3406,7 @@ blockquote{
     display: block;
     width: 29px;
     height: 29px;
-    background-color: #316397;
+    background-color: #48634d;
     position: absolute;
     left: 11px;
     top: 0px;
@@ -5343,6 +5350,7 @@ border-radius: 1vh 0 0 1vh;
 }
 .fn_cs_project_sticky_full .right_part .title_holder h3 a:hover{
 	color: #899c87;
+	font-style: italic;
 }
 .fn_cs_project_sticky_full .right_part .title_holder p{
 	margin: 0;
