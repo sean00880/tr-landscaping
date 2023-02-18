@@ -514,7 +514,16 @@ a:focus {
 	color: ghostwhite;
 	font-size: 30px;
 }
+
+.menu_logo h1{
+	color: ghostwhite;
+	font-size: 30px;
+}
 .industify_fn_header .menu_logo h1 span{
+	font-style: italic;
+	font-weight: 700;
+}
+.menu_logo h1 span{
 	font-style: italic;
 	font-weight: 700;
 }
@@ -4849,7 +4858,7 @@ border-radius: 1vh 0 0 1vh;
 .fn_cs_about_with_rating h3.rating_text{
     margin: 0px;
     padding: 0px;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 14px;
     text-transform: uppercase;
     letter-spacing: 0px;
@@ -4918,6 +4927,7 @@ border-radius: 1vh 0 0 1vh;
 	font-size: 18px;
 	color: #14141c;
 }
+
 @media(max-width: 1200px){
 	.fn_cs_about_with_rating .title_holder{
 		width: 100%;
@@ -4938,13 +4948,16 @@ border-radius: 1vh 0 0 1vh;
 	.fn_cs_about_with_rating .right_part{
 		width: 100%;
 	}
-	.fn_cs_about_with_rating .left_part h3{font-size: 36px;}
 	.fn_cs_about_with_rating .top_section{
 		padding: 40px;
 		padding-bottom: 42px;
 	}
 	.fn_cs_about_with_rating .rating_holder{top: 40px;right: 60px;}
 	.fn_cs_about_with_rating .bottom_section{padding: 40px;}
+	
+.fn_cs_about_with_rating .rating_text{
+	font-size: 13px;
+}
 }
 @media(max-width: 768px){
 	.fn_cs_about_with_rating .badge_left{min-height: inherit; width: 100%;padding-right: 100px;}
@@ -8452,6 +8465,10 @@ border-radius: 1vh 0 0 1vh;
 	letter-spacing: 0;
 }
 
+.fn_cs_about_with_rating .rating_text{
+	font-size: 13px;
+}
+
 @media(max-width:912px){
 	.fn_cs_hero_header{height: 75vh;}
 }
@@ -8483,11 +8500,11 @@ border-radius: 1vh 0 0 1vh;
 }
 
 @media(max-width:414px){
-	.fn_cs_hero_header{height: 79vh;}
+	.fn_cs_hero_header{height: 78vh;}
 }
 
 @media(max-width:412px){
-	.fn_cs_hero_header{height: 79vh;}
+	.fn_cs_hero_header{height: 78vh;}
 }
 
 @media(max-width:400px){  
@@ -8498,7 +8515,15 @@ border-radius: 1vh 0 0 1vh;
 }
 
 @media(max-width:393px){
-	.fn_cs_hero_header{height: 90vh;}
+	.fn_cs_hero_header{height: 89vh;}
+}
+
+@media(max-width:390px){
+	.fn_cs_hero_header{height: 89vh;}
+}
+
+@media(max-width:375px){
+	.fn_cs_hero_header{height: 86vh;}
 }
 
 @media(max-width:360px){
