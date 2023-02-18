@@ -8462,6 +8462,9 @@ border-radius: 1vh 0 0 1vh;
 @media(max-width:768px){  
  	.fn_cs_counter_with_caption[data-column="4"] ul li{width: 50%;}
 	 .fn_cs_hero_header{height: 82vh;}
+	 .fn_cs_hero_header .o_img{
+		background-attachment: unset;
+	 }
 }
 
 @media(max-width:540px){
@@ -8480,7 +8483,7 @@ border-radius: 1vh 0 0 1vh;
 }
 
 @media(max-width:414px){
-	.fn_cs_hero_header{height: 90vh;}
+	.fn_cs_hero_header{height: 79vh;}
 }
 
 @media(max-width:412px){
