@@ -25,9 +25,9 @@ const blog3 = "/img/blog/3.jpg"
 export default function Index() {
 	return (
 		<>
-			<Title title='Home Alpha' />
+			
 			<Layout className={"transdark"}>
-				<Title title='Home Delta' />
+				<Title title='Landscaping & Junk Removal in Maryland' />
 
 				          {/* <!-- Hero Header --> */}
 						  <div className="fn_cs_hero_header">
