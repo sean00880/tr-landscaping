@@ -196,6 +196,9 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 				  {/* <!-- Service Classic Shortcode --> */}
 				  <div className="fn_cs_services_classic">
                         <div className="container">
+							<Slide left>
+							<h3 className='services_heading'>Browse through our services:</h3>
+							</Slide>
                             <div className="list">
                                 <ul>
                                     <li>
@@ -238,6 +241,9 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                                    
                                 </ul>
                             </div>
+							<Slide right>
+							<h3 className='services_heading'>Or choose one of our featured services:</h3>
+							</Slide>
                         </div>
                     </div>
                     {/* <!-- /Service Classic Shortcode --> */}
