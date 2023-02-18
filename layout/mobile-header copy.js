@@ -57,19 +57,41 @@ export default function MobileHeader() {
 						<nav >
 							<ul className="metismenu" id="metismenu">
 								<li>
-									<Link href="#"><a>Home</a></Link>
-									
+									<Link href="#"><a className="has-arrow">Home</a></Link>
+									<ul>
+										<li><Link href="/"><a>Home Alpha</a></Link></li>
+										<li><Link href="/index-1"><a>Home Beta</a></Link></li>
+										<li><Link href="/index-2"><a>Home Gama</a></Link></li>
+										<li><Link href="/index-3"><a>Home Delta</a></Link></li>
+									</ul>
 								</li>
 								<li><Link href="/portfolio"><a>Projects</a></Link></li>
 								<li>
 									<Link href="#"><a className="has-arrow">Our Services</a></Link>
 									<ul>
-										<li><Link href="/service-single-9"><a>Landscaping</a></Link></li>
-										<li><Link href="/service-single-8"><a>Junk Removal</a></Link></li>
-										
+										<li><Link href="/service-single-9"><a>Aerospace and Defense</a></Link></li>
+										<li><Link href="/service-single-8"><a>Automative Manufacturing</a></Link></li>
+										<li><Link href="/service-single-7"><a>Chemical Industry</a></Link></li>
+										<li><Link href="/service-single-6"><a>Oil and Gas Industry</a></Link></li>
+										<li><Link href="/service-single-5"><a>Energy &#038; Commodities</a></Link></li>
+										<li><Link href="/service-single-4"><a>Medical Devices</a></Link></li>
+										<li><Link href="/service-single-3"><a>Housewares &#038; Home Decor</a></Link></li>
+										<li><Link href="/service-single-2"><a>Textiles &#038; Apparel</a></Link></li>
+										<li><Link href="/service-single-1"><a>Construction &#038; Engineering</a></Link></li>
 									</ul>
 								</li>
-								
+								<li>
+									<Link href="#"><a className="has-arrow">Pages</a></Link>
+
+									<ul>
+										<li><Link href="/gallery"><a>Gallery</a></Link></li>
+										<li><Link href="/404"><a>404 Page</a></Link></li>
+										<li><Link href="/principles"><a>Our Principles</a></Link></li>
+										<li><Link href="/services"><a>Our Services</a></Link></li>
+										<li><Link href="/blog-full"><a>Blog Full</a></Link></li>
+										<li><Link href="/protected"><a>Protected Page</a></Link></li>
+									</ul>
+								</li>
 								<li><Link href="/blog"><a>Blog</a></Link></li>
 								<li><Link href="/contact"><a>Contact</a></Link></li>
 							</ul>
