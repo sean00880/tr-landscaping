@@ -48,6 +48,7 @@ a, i{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 	border:none;
+	text-decoration: none;
 }
 a:hover{text-decoration:none;}
 

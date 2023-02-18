@@ -7,6 +7,12 @@ import Link from 'next/link'
 import { Arrow_r, Certificate, Checked, Quotes, Stars } from '../public/svg/icon'
 import { Design, Drawing, TowerCrane } from '../public/svg/service/IconService';
 import Image from 'next/image'
+import Slide from 'react-reveal/Slide';
+import Flip from 'react-reveal/Flip';
+import Fade from 'react-reveal/Fade';
+import Flash from 'react-reveal/Flash';
+import Pulse from 'react-reveal/Pulse';
+
 
 const Learning = "/img/about/right.jpg"
 const right = "/img/about/right.jpg"
@@ -30,11 +36,17 @@ export default function Index() {
 				<Title title='Landscaping & Junk Removal in Maryland' />
 
 				          {/* <!-- Hero Header --> */}
+						  
 						  <div className="fn_cs_hero_header">
+						  
             <div className="container">
+				
               <div className="content_holder max450">
                 <div className="title_holder">
+				<Flip top>
                   <h3>Professional Lawncare & Junk Removal in <span>Maryland</span></h3>
+				  </Flip>
+				
 				  <p className="para1">
 				We provide a range of junk removal services in addition to lawn care and landscape maintenance, all of which are handled by our highly qualified professional team. Our aim is to offer each client the greatest possible customer service together with stunning results.
 				  <br /><br />
@@ -43,6 +55,7 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 <p className="para2">
 				We provide a range of junk removal services in addition to lawn care and landscape maintenance, all of which are handled by our highly qualified professional team. Our aim is to offer each client the greatest possible customer service together with stunning results.
 </p>
+
                 </div>
                 <div className="btn_holder fn_cs_lightgallery">
                   <Link href="/services"><a className="discover">Discover our Website</a></Link>
@@ -52,12 +65,16 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                   </span>
                 </div>
               </div>
+			  
             </div>
+			
+			
             <div className="bg_holder">
               <div className="o_img" style={{ "backgroundImage": "url(/img/hero.jpg)" }}></div>
               <div className="o_color"></div>
             </div>
           </div>
+		  
           {/* <!-- /Hero Header --> */}
 
           {/* <!-- Info List --> */}
@@ -106,6 +123,7 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 					<div className="fn_cs_about">
 						<div className="container">
 							<div className="a_inner">
+								<Fade left>
 							<div className="leftpart">
 									{/* <div className="r_inner" id="scene">
 										<div className="layer border" data-depth="0.3">
@@ -136,6 +154,8 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 										</div>
 									</div>
 								</div>
+								</Fade>
+								<Fade top>
 								<div className="rightpart">
 									<div className="title_holder">
 										<h3 className="title">We are TR Landscaping</h3>
@@ -148,6 +168,7 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 										<p className="occ">Chief Executive</p>
 									</div>
 								</div>
+								</Fade>
 								
 							</div>
 						</div>
@@ -162,9 +183,11 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 				 {/* <!-- Main Title --> */}
 				 <div className="fn_cs_main_title">
               <div className="container">
+				<Flip top>
                 <div className="title_holder">
                   <h3>TR Landscaping Services</h3>
                 </div>
+				</Flip>
               </div>
             </div>
             {/* <!-- /Main Title --> */}
@@ -176,6 +199,7 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                             <div className="list">
                                 <ul>
                                     <li>
+										<Slide left>
                                         <div className="item">
                                             <Link href="/service-single-1"><a></a></Link><span className="bg1"></span><span className="bg2"></span>
                                             <span className="icon">
@@ -190,8 +214,10 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                                                 </a></Link>
                                             </span>
                                         </div>
+										</Slide>
                                     </li>
                                     <li>
+										<Slide right>
                                         <div className="item">
                                             <Link href="/service-single-2"><a></a></Link><span className="bg1"></span><span className="bg2"></span>
                                             <span className="icon">
@@ -206,6 +232,7 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                                                 </a></Link>
                                             </span>
                                         </div>
+										</Slide>
                                     </li>
                                     
                                    
@@ -214,7 +241,9 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                         </div>
                     </div>
                     {/* <!-- /Service Classic Shortcode --> */}
+					
 					<Services />
+					
 </div>
 
 
@@ -229,8 +258,10 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 					<div className="fn_cs_about_with_rating">
 						<div className="container">
 							<div className="awr_inner">
+								<Slide left>
 							<div className="left_part">
 									<div className="r_inner">
+										<Fade left>
 										<div className="top_section">
 											<div className="badge_holder">
 												<div className="badge_left">
@@ -250,6 +281,7 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 												<h3 className="rating_text">Customer Rating</h3>
 											</div>
 										</div>
+										</Fade>
 										<div className="bottom_section">
 											<div className="list">
 												<ul>
@@ -298,9 +330,13 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 										</div>
 									</div>
 								</div>
+								</Slide>
+								<Slide right>
 								<div className="right_part">
 									<div className="title_holder">
+										<Fade right>
 										<h3>Why choose our services?</h3>
+										</Fade>
 										<p>At Industify Company, we rely on honesty, discipline and hard work and believe our success can be attributed to upholding a simple set of core values that date back to the beginning of the company.</p>
 										<p>Industify is an integrated design-build firm offering engineering, architecture and construction services to domestic and international customers throughout the U.S. Unique to Industify is the fact that we conduct all disciplines in-house in a collaborative environment.</p>
 									</div>
@@ -309,6 +345,7 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 										<p>We have a<br />ISO Certificate.</p>
 									</div>
 								</div>
+								</Slide>
 								
 							</div>
 						</div>
@@ -324,12 +361,19 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 					<div className="container">
 						<div className="cta_holder">
 							<div className="title_holder">
+								<Flip bottom>
 								<h3>We will Make Your Dream Come True</h3>
+								</Flip>
+								<Fade left>
 								<p>We are focused on sustainable business that delivers the best possible project results.</p>
+								</Fade>
 							</div>
+							<Flash>
 							<div className="link_holder">
+								
 								<Link href="/contact"><a>Our Responsibility</a></Link>
 							</div>
+							</Flash>
 						</div>
 					</div>
 				</div>
@@ -345,11 +389,13 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 						<div className="container">
 							<div className="inner">
 								<Quotes className="fn__svg"/>
+								<Pulse>
 								<div className="content_holder">
 									<p>Hiday Motors needed to build a brand new 28,000 sf facility that would both meet our needs and comply with GMs standards - which seemed daunting, to say the least. Industify alleviated all of our concerns and communicated with us every step of the way. We have received dozens of compliments from our customers, and our employees love the new store!</p>
 									<h3>Steve Lehman</h3>
 									<h5>CEO of Hiday Motors.</h5>
 								</div>
+								</Pulse>
 							</div>
 						</div>
 					</div>
@@ -362,19 +408,24 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 				{/* <!-- Project Sticky Full --> */}
 				<div className="fn_cs_project_sticky_full">
 					<div className="inner">
+						
 						<div className="left_part">
+						<Slide bottom>
 							<div className="fn_cs_sticky_section">
 								<h3>Our latest projects.</h3>
 								<p>At Industify Company, we rely on honesty, discipline and hard work and believe our success can be attributed to upholding a simple set of core values that date back to the beginning of the company.</p>
 								<p>Industify is an integrated design-build firm offering engineering, architecture and construction services to domestic and international customers throughout the U.S. Unique to Industify is the fact that we conduct all disciplines in-house in a collaborative environment.</p>
 								<Link href="/portfolio"><a>View All Projects</a></Link>
 							</div>
+							</Slide>
 						</div>
+					
 
 						<div className="right_part">
 							<div className="fn_cs_sticky_section">
 								<ul>
 									<li>
+										<Fade right>
 										<div className="item">
 											<div className="img_holder">
 												<img src="img/thumb/700-500.jpg" alt="" />
@@ -394,8 +445,10 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 												</p>
 											</div>
 										</div>
+										</Fade>
 									</li>
 									<li>
+										<Fade right>
 										<div className="item">
 											<div className="img_holder">
 												<img src="img/thumb/700-500.jpg" alt="" />
@@ -415,8 +468,10 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 												</p>
 											</div>
 										</div>
+										</Fade>
 									</li>
 									<li>
+									<Fade right>
 										<div className="item">
 											<div className="img_holder">
 												<img src="img/thumb/700-500.jpg" alt="" />
@@ -436,6 +491,7 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 												</p>
 											</div>
 										</div>
+										</Fade>
 									</li>
 								</ul>
 							</div>

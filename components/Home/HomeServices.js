@@ -7,7 +7,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Arrow_r } from '../../public/svg/icon';
-
+import Pulse from 'react-reveal/Pulse';
+import Flip from 'react-reveal/Flip';
 // Import images
 const service1 = "/img/service/single/1.jpg"
 const service2 = "/img/service/single/3.jpeg"
@@ -52,11 +53,14 @@ export default function HomeServices() {
     return (
         <>
             {/* <!-- Service Query Shortcode --> */}
+            <Pulse>
             <div className="fn_cs_service_query" data-mobile="disable" data-column-count="4">
                 <div className="top_bar">
                     <div className="t_inner">
+                        <Flip bottom>
                         <h3>Our Industries</h3>
                         <span>The automotive industry is the technological trendsetter among manufacturing industries.</span>
+                        </Flip>
                         <div className="owl_control">
                             <div className="fn_prev"></div>
                             <div className="fn_next"></div>
@@ -115,6 +119,7 @@ export default function HomeServices() {
                     </div>
                 </div>
             </div>
+            </Pulse>
             {/* <!-- /Service Query Shortcode --> */}
 
         </>

@@ -593,6 +593,7 @@ a:focus {
 .lang_switcher{
 	position: relative;
 	margin-right: 30px;
+	display: none;
 }
 .lang_switcher.custom_language .click{
 	padding-left: 25px;
@@ -2589,7 +2590,7 @@ a:focus {
 	min-height: 200px;
 }
 .contact_left a:hover{
-	background-color: #45a2df;
+	background-color: #899c87;
 }
 .contact_left a{
 	display: inline-block;
@@ -4208,7 +4209,7 @@ blockquote{
     left: 0px;
     width: 100px;
     height: 3px;
-    background-color: #45a2df;
+    background-color: #899c87;
 }
 .fn_cs_about .leftpart .title_holder p{
 	margin: 0;
@@ -4342,6 +4343,8 @@ blockquote{
 	min-height: 40px;
 	display: flex;
 	align-items: center;
+	font-style: italic;
+	letter-spacing: 1px;
 }
 .fn_cs_service_query .t_inner span:after{
 	top: 0px;
@@ -4601,10 +4604,10 @@ border-radius: 1vh 0 0 1vh;
 
 
 .fn_cs_about_with_rating .signature{
-	max-width: 270px;
 	padding: 22px 20px 22px 105px;
 	border: 2px solid #eee;
 	position: relative;
+	font-style: italic;
 }
 
 .sign_holder{
@@ -5260,7 +5263,7 @@ border-radius: 1vh 0 0 1vh;
 	text-overflow: ellipsis;
 }
 .fn_cs_project_sticky_full .left_part a:hover{
-	background-color: #45a2df;
+	background-color: #899c87;
 }
 .fn_cs_project_sticky_full .right_part ul{
 	margin: 0px;
@@ -5649,10 +5652,10 @@ border-radius: 1vh 0 0 1vh;
 	position: relative;
 }
 .fn_cs_triple_blog_modern .t_header a{
-	color: #45a2df;
+	color: #899c87;
 	text-decoration: none;
 	text-transform: capitalize;
-	border-bottom: 1px solid #45a2df;
+	border-bottom: 1px solid #899c87;
 }
 .fn_cs_triple_blog_modern .t_header a:hover{
 	border-bottom-color: transparent;
@@ -5671,7 +5674,7 @@ border-radius: 1vh 0 0 1vh;
 	color: #041230;
 }
 .fn_cs_triple_blog_modern .title_holder h3 a:hover{
-	color: #45a2df
+	color: #899c87
 }
 .fn_cs_triple_blog_modern .t_footer{
 	margin: 0;
@@ -6048,21 +6051,23 @@ border-radius: 1vh 0 0 1vh;
 	transition-delay: .3s;
 }
 .fn_cs_info_list h3{
-	margin: 0px;
-	padding: 0px;
+	margin: 1px;
+	padding: 1px;
 	font-size: 20px;
 	margin-bottom: 2px;
 	letter-spacing: 2px;
     font-family: 'Advent Pro', sans-serif;
 	color: #eee;
+	font-style: italic;
 }
 .fn_cs_info_list p{
 	margin: 0px;
-	padding: 0px;
-	font-size: 16px;
+    padding: 0px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-family: 'Advent Pro', sans-serif;
-    color: #dad9d9;
+    color: #b1c0b5;
+    text-indent: 13px;
 }
 .fn_cs_info_list[data-cols="2"] li{
 	width: 50%;
@@ -6196,7 +6201,7 @@ border-radius: 1vh 0 0 1vh;
 }
 .fn_cs_info_rating .l_video .text{
 	font-weight: 400;
-	color: #45a2df;
+	color: #899c87;
 	position: relative;
 	display: block;
 	float: left;
@@ -6440,7 +6445,7 @@ border-radius: 1vh 0 0 1vh;
     top: 50%;
     left: 50%;
     margin: -10px 0px 0px -1px;
-    background-color: #45a2df;
+    background-color: #899c87;
     z-index: 5;
 }
 .fn_cs_info_rating .img_list .plus:after{
@@ -6451,7 +6456,7 @@ border-radius: 1vh 0 0 1vh;
     top: 50%;
     left: 50%;
     margin: -1px 0px 0px -10px;
-    background-color: #45a2df;
+    background-color: #899c87;
     z-index: 5;
 }
 .fn_cs_info_rating .img_list .item:hover .plus{
@@ -6562,6 +6567,9 @@ border-radius: 1vh 0 0 1vh;
 	.fn_cs_info_rating .left_part > div{max-width: 500px;}
 }
 @media(max-width: 1040px){
+	.fn_cs_hero_header .container{
+		padding:1vh;
+	}
 	.fn_cs_hero_header .content_holder{
 
 		
@@ -6841,7 +6849,7 @@ border-radius: 1vh 0 0 1vh;
     left: 0px;
     width: 100px;
     height: 2px;
-    background-color: #45a2df;
+    background-color: #899c87;
 }
 .fn_cs_project_sticky .left_part p{
 	margin: 0;
@@ -6976,7 +6984,7 @@ border-radius: 1vh 0 0 1vh;
 }
 .fn_cs_project_sticky .right_part .img_holder a:before{
 	content: '';
-    background-color: #45a2df;
+    background-color: #899c87;
     left: 50px;
     top: 49px;
     width: 0px;
@@ -6988,7 +6996,7 @@ border-radius: 1vh 0 0 1vh;
 }
 .fn_cs_project_sticky .right_part .img_holder a:after{
 	content: '';
-    background-color: #45a2df;
+    background-color: #899c87;
     left: 59px;
     top: 40px;
     width: 2px;
@@ -7022,7 +7030,7 @@ border-radius: 1vh 0 0 1vh;
     right: 30px;
     height: 15px;
     bottom: 0px;
-    background-color: #45a2df;
+    background-color: #899c87;
     content: '';
     position: absolute;
     z-index: -1;
@@ -7037,7 +7045,7 @@ border-radius: 1vh 0 0 1vh;
 	width: 20px;
 }
 .fn_cs_project_sticky .right_part .item:hover .title_holder p a{
-	color: #45a2df;
+	color: #899c87;
 }
 .fn_cs_project_sticky .right_part .item:hover .title_holder > a{
 	opacity: 1;
@@ -7103,7 +7111,7 @@ border-radius: 1vh 0 0 1vh;
 	display: block;
 	width: 80px;
 	height: 137px;
-	background-color: #45a2df;
+	background-color: #899c87;
 	color: #041230;
 }
 .fn_cs_support_block .icon:before{
@@ -7131,7 +7139,7 @@ border-radius: 1vh 0 0 1vh;
 	left: 20px;
 }
 .fn_cs_support_block .icon span:after{
-	border-top: 10px solid #45a2df;
+	border-top: 10px solid #899c87;
     border-right: 80px solid transparent;
     content: '';
     position: absolute;
@@ -7207,7 +7215,7 @@ border-radius: 1vh 0 0 1vh;
     line-height: 50px;
     letter-spacing: 0.5px;
     color: #fff;
-    background-color: #45a2df;
+    background-color: #899c87;
 	text-decoration: none;
 }
 .fn_cs_support_block .link_block a:hover{
@@ -8139,7 +8147,7 @@ border-radius: 1vh 0 0 1vh;
 }
 .fn_cs_project_sticky_modern .img_holder a:before{
 	content: '';
-    background-color: #45a2df;
+    background-color: #899c87;
     left: 50px;
     top: 49px;
     width: 0px;
@@ -8151,7 +8159,7 @@ border-radius: 1vh 0 0 1vh;
 }
 .fn_cs_project_sticky_modern .img_holder a:after{
 	content: '';
-    background-color: #45a2df;
+    background-color: #899c87;
     left: 59px;
     top: 40px;
     width: 2px;
@@ -8199,7 +8207,7 @@ border-radius: 1vh 0 0 1vh;
 	width: 20px;
 }
 .fn_cs_project_sticky_modern .item:hover .title_holder p a{
-	color: #45a2df;
+	color: #899c87;
 }
 .fn_cs_project_sticky_modern .item:hover .title_holder > a{
 	opacity: 1;
@@ -8316,7 +8324,7 @@ border-radius: 1vh 0 0 1vh;
 .fn_cs_button.full a{
 	display: block;
 	line-height: 70px;
-	background-color: #45a2df;
+	background-color: #899c87;
 }
 .fn_cs_button.full a:hover{
 	background-color: #ad3110;
@@ -9507,7 +9515,7 @@ border-radius: 1vh 0 0 1vh;
 	margin-bottom: 0;
 }
 .fn_cs_location_list .content_holder a{
-	color: #45a2df;
+	color: #899c87;
 	text-decoration: none;
 }
 .fn_cs_location_list .content_holder a:hover{
@@ -9592,7 +9600,7 @@ border-radius: 1vh 0 0 1vh;
 	position: absolute;
 	width: 18px;
 	height: 18px;
-	color: #45a2df;
+	color: #899c87;
 	top: 0px;
 	left: 0px;
 }
