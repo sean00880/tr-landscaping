@@ -235,9 +235,9 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 											<div className="badge_holder">
 												<div className="badge_left">
 													<div className="b_title">
-														<h3>World&apos;s Leading Industry<br />Corporation</h3>
+														<h3>Maryland&apos;s Leading Landscaping<br />Business</h3>
 													</div>
-													<div className="b_desc"><span className="year">47</span><span className="text">Years of Experience</span></div>
+													<div className="b_desc"><span className="year">7+</span><span className="text">Years of Experience</span></div>
 												</div>
 												<div className="badge_right" style={{ "backgroundImage": `url(${rightImage})` }}></div>
 											</div>
