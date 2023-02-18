@@ -6039,7 +6039,7 @@ border-radius: 1vh 0 0 1vh;
 	font-size: 20px;
 	margin-bottom: 2px;
 	letter-spacing: 2px;
-    font-family: 'Advent Pro';
+    font-family: 'Advent Pro', sans-serif;
 	color: #eee;
 }
 .fn_cs_info_list p{
@@ -6047,7 +6047,7 @@ border-radius: 1vh 0 0 1vh;
 	padding: 0px;
 	font-size: 16px;
     letter-spacing: 2px;
-    font-family: 'Advent Pro';
+    font-family: 'Advent Pro', sans-serif;
     color: #dad9d9;
 }
 .fn_cs_info_list[data-cols="2"] li{
