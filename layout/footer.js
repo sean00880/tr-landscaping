@@ -34,7 +34,7 @@ export default function Footer() {
                                 <ul className="widget_area">
                                     <li>
                                         <div className="item">
-                                            <div className="logo">
+                                            <div className="menu_logo">
                                                 <Link href="/"><a>
                             <h1>TR <span>Landscaping</span> LLC</h1>
                         </a></Link>
