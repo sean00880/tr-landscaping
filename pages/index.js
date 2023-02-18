@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const Learning = "/img/about/right.jpg"
 const right = "/img/about/right.jpg"
-const rightImage = "/img/service/right-image.jpg"
+const rightImage = "/img/service/right-image.jpeg"
 const testimonial = "/img/testimonial/bg.jpg"
 const portfolio1 = "/img/portfolio/1.jpg"
 const portfolio2 = "/img/portfolio/2.jpg"
