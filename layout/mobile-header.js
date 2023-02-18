@@ -40,9 +40,11 @@ export default function MobileHeader() {
 				{/* <!-- LOGO & HAMBURGER --> */}
 				<div className="logo_hamb">
 					<div className="in">
-						<div className="menu_logo">
-							<Link href="/"><a><img src="img/logo-light.png" alt="Industry Template" /></a></Link>
-						</div>
+					<div className="menu_logo">
+                        <Link href="/"><a>
+                            <h1>TR <span>Landscaping</span> LLC</h1>
+                        </a></Link>
+                    </div>
 						<div onClick={MobileMenuTrueFalse} className={!isMobileMenu ? "hamburger hamburger--collapse-r" : "hamburger hamburger--collapse-r is-active"}>
 							<div className="hamburger-box">
 								<div className="hamburger-inner"></div>
