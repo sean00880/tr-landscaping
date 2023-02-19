@@ -179,8 +179,9 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 													
 												</label>
 											</div>
-										
+											
 										</div>
+										<hr />
 										<div className="items">
 											<div className="item">
 												Brief description of your requirements:

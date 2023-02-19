@@ -175,7 +175,6 @@ input[type="color"],
 .uneditable-input {
 	border-radius:0;
 	font-size:13px;
-	min-width:220px;
 	color:#333;
 	letter-spacing:0.5px;
 	
