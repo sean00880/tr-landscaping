@@ -38,10 +38,15 @@ export default function Index() {
 				          {/* <!-- Hero Header --> */}
 						  
 						  <div className="fn_cs_hero_header">
+
+						 
 						  
             <div className="container">
+
+			
 				
-              <div className="content_holder max450">
+              <div className="content_holder">
+				
                 <div className="title_holder">
 				<Flip top>
                   <h3>Professional Lawncare & Junk Removal in <span>Maryland</span></h3>
@@ -57,6 +62,9 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
 </p>
 
                 </div>
+
+				
+				
                 <div className="btn_holder fn_cs_lightgallery">
                   <Link href="/services"><a className="discover">Discover our Website</a></Link>
                   <span className="video lightbox" data-src="https://youtu.be/3j3SQEUfREs">
@@ -64,6 +72,8 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                     <span className="text">Watch Video</span>
                   </span>
                 </div>
+
+				
               </div>
 			  
             </div>
@@ -110,10 +120,84 @@ For a free, no-obligation quote on all of your lawn care and landscape managemen
                     </div>
                   </li>
                 </ul>
+				
               </div>
+
             </div>
           </div>
           {/* <!-- /Info List --> */}
+
+		                      {/* <!-- Introduce Shortcode --> */}
+							  <div className="fn_cs_introduce_wrap fn_cs_lightgallery" data-url-show="yes" data-wing-switch="enable">
+                        <div className="container">
+                            <div className="fn_cs_introduce">
+
+                                <span className="wing11"></span>
+                                <span className="wing12"></span>
+                                <span className="wing21"></span>
+                                <span className="wing22"></span>
+                                <span className="video lightbox" data-src="https://youtu.be/3j3SQEUfREs"><span></span></span>
+                                <div className="o_color"></div>
+
+                                <div className="content_holder">
+								<div className="list">
+				<div className="contact_left">
+									<h3>-- Get Your Instant <span>FREE</span> Quote! --</h3>
+									<hr />
+									<div className="empty_notice"><span>Please Fill Required Fields</span></div>
+									<form className="contact_form" action="/" method="post" autoComplete="off" data-email="frenifyteam@gmail.com">
+
+
+										{/* Don't remove below code in avoid to work contact form properly.
+									You can chance dat-success value with your one. It will be used when user will try to contact via contact form and will get success message. */}
+
+										<div className="success" data-success="Your message has been received, we will contact you soon."></div>
+										
+										{/*  */}
+										<div className="items">
+											Name:
+											<div className="item">
+												
+												<input id="name" type="text" placeholder="Name" />
+											</div>
+											Contact Information:
+											<div className="item">
+												
+												<input id="email" type="email" placeholder="Email" />
+											</div>
+											<div className="item">
+												<input id="name" type="text" placeholder="Your Address [1234, Main Street, MD - 12345]" />
+											</div>
+											<div className="item">
+												<label>
+													Service:
+													<select className='select'>
+														<option value="1">Landscaping</option>
+														<option value="2">Junk Removal</option>
+														
+													</select>
+													
+												</label>
+											</div>
+										
+										</div>
+										<div className="items">
+											<div className="item">
+												Brief description of your requirements:
+												<textarea id="message" placeholder="Message"></textarea>
+											</div>
+											<div className="item button">
+												<Link href="#"><a id="send_message">Sumbit</a></Link>
+											</div>
+										</div>
+									</form>
+								</div>
+				</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- /Introduce Shortcode --> */}
 
 				
 				{/* <!-- About Section --> */}

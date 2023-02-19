@@ -2556,6 +2556,7 @@ a:focus {
     padding: 30px;
     background: #111422;
     color: #fff;
+	text-align: center;
 }
 .contact_holder .contact_right{
 	width: 60%;
@@ -2570,10 +2571,11 @@ a:focus {
 	width: 100%;
 	display: block;
 	border-radius: 3px;
-	background-color: rgba(255,255,255,.05);
 	border: 1px solid #222;
-	color: #eee;
+	color: #565656;
 	outline: none;
+	height: 45px;
+	letter-spacing: 2px;
 }
 .contact_left textarea:focus,
 .contact_left input[type="text"]:focus,
@@ -2588,6 +2590,7 @@ a:focus {
 }
 .contact_left textarea{
 	min-height: 200px;
+	color:#565656;
 }
 .contact_left a:hover{
 	background-color: #899c87;
@@ -7302,7 +7305,7 @@ border-radius: 1vh 0 0 1vh;
 	clear: both;
 	position: relative;
 	padding: 40px 0px;
-	margin-top: -140px;
+	margin-top: -55px;
 }
 .fn_cs_introduce_wrap[data-url-show="no"] span.video{
 	display: none;
@@ -7318,7 +7321,7 @@ border-radius: 1vh 0 0 1vh;
 .fn_cs_introduce .wing12{
 	position: absolute;
 	bottom: 100%;
-	border-top: 40px solid transparent;
+	border-top: 16px solid transparent;
 	right: 80px;
 	border-right: 600px solid rgba(255,255,255,0.2);
 }
@@ -7352,7 +7355,7 @@ border-radius: 1vh 0 0 1vh;
 	bottom: 0px;
 	z-index: 5;
 	box-shadow: 10px 0px 40px rgba(0,0,0,0.08);
-	background-color: #081225;
+	background:whitesmoke;
 }
 .fn_cs_introduce .title_holder{
 	width: 100%;
@@ -7467,6 +7470,7 @@ border-radius: 1vh 0 0 1vh;
 	background-color: #ad3110;
 	border-radius: 100%;
 	cursor: pointer;
+	display: none;
 }
 .fn_cs_introduce span.video:after{
 	content: '';
@@ -7572,14 +7576,13 @@ border-radius: 1vh 0 0 1vh;
 	width: 50%;
 	float: left;
 	padding-left: 80px;
-	margin: 40px 0;
 }
 .fn_cs_services_classic .item{
 	width: 100%;
 	float: left;
 	clear: both;
 	position: relative;
-	padding: 30px 0 0;
+	padding: 3vh 0;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -8521,6 +8524,10 @@ border-radius: 1vh 0 0 1vh;
 	.fn_cs_counter_with_caption[data-column="4"] ul li{width: 100%;}
 }
 
+@media(max-width:428px){  
+.industify_fn_mobilemenu_wrap .m_toll_free_lang{display: none;}
+}
+
 @media(max-width:414px){
 	.fn_cs_hero_header{height: 78vh;}
 }
@@ -9237,6 +9244,52 @@ border-radius: 1vh 0 0 1vh;
 /*------------------------------------------------------------------*/
 /*	Shortcode #29 CONTACT ALPHA
 /*------------------------------------------------------------------*/
+
+.contact_form{
+	display: flex;
+	flex-direction: row;
+	font-family: 'Advent Pro',sans-serif;
+    font-size: 19px;
+	font-style: italic;
+}
+
+.contact_form .items .item input,textarea,label select option::placeholder{
+	font-style: italic;
+}
+
+.contact_form .items{
+	width:50%;
+	margin: 0 1vh;
+	display:flex;
+	flex-direction:column;
+}
+
+.contact_form .items .button{
+	align-self: center;
+}
+
+.contact_form .items .select{
+	width: 100%;
+    display: block;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,.05);
+    border: 1px solid #222;
+    color: #787878;
+    outline: none;
+    height: 45px;
+}
+
+.contact_left h3{
+	text-align: center;
+    color: #586857;
+}
+
+.contact_left h3 span{
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-style: normal;
+}
+
 .contact_alpha{
 	width: 100%;
 	float: left;
@@ -9271,6 +9324,7 @@ border-radius: 1vh 0 0 1vh;
     font-weight: 400;
     line-height: 36px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 .contact_alpha .contact_left p{
 	margin: 0;
